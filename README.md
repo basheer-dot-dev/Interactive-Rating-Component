@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Solution URL: [projects.basheer.dev/interactive-rating-component/live/index.html](https://your-solution-url.com)
+- Live Solution URL: [projects.basheer.dev/interactive-rating-component/live/index.html](https://projects.basheer.dev/interactive-rating-component/live/index.html)
 - My Personal Portfolio/Website: [basheer.dev](https://basheer.dev)
 
 ## My process
