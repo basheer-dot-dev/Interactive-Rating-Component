@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');  
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    bottom: 2px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.p1, .rating-submit, .thank-you-p2 {
+    color: #fff;
+}
+
+.p2, .rating, .thank-you-p3 {
+    color: hsl(217, 12%, 63%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+}
+
+.main {
+    background-color: #212832;
+    display: flex;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 350px;
+}
+
+.rating-icon {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    padding: 15px;
+    filter: brightness(110%);
+}
+
+.rating-bar {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating {
+    outline: none;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+}
+
+.unselected {
+    background-color: hsl(213, 19%, 18%);
+    filter: brightness(110%);
+}
+
+.p1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.p2 {
+    font-weight: 400;
+}
+
+.rating-submit {
+    background-color: hsl(25, 97%, 53%);
+    outline: none;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition-property: background-color, color;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+    
+}
+
+.after-rating {
+    visibility: hidden;
+    display: none;
+}
+
+.rating:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.selected {
+    background-color: hsl(25, 97%, 53%);
+    filter: brightness(110%);
+    color: hsl(0, 0%, 100%);    
+    color: hsl(0, 0%, 100%);    
+}
+
+.rating-submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+/*- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)
+*/
