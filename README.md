@@ -1,5 +1,7 @@
 # Interactive rating component challenge
 
+[![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/basheer_dev?style=plastic)](https://peerlist.io/basheer_dev)
+
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
