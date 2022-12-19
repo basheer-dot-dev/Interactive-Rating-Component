@@ -1,23 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');  
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-    bottom: 2px;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
-.p1, .rating-submit, .thank-you-p2 {
-    color: #fff;
-}
-
-.p2, .rating, .thank-you-p3 {
-    color: hsl(217, 12%, 63%);
-}
-
 body {
     display: flex;
     justify-content: center;
@@ -26,14 +8,16 @@ body {
     background-color: hsl(216, 12%, 8%);
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
+    height: 100vh;
+    color: hsl(0, 0%, 100%);
 }
 
 .main {
     background-color: #212832;
     display: flex;
     border-radius: 15px;
-    padding: 20px;
-    max-width: 350px;
+    padding: 30px;
+    max-width: 360px;
 }
 
 .rating-icon {
@@ -51,8 +35,8 @@ body {
 
 .rating {
     outline: none;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,12 +75,7 @@ body {
     transition-property: background-color, color;
     transition-duration: 200ms;
     transition-timing-function: ease-in;
-    
-}
-
-.after-rating {
-    visibility: hidden;
-    display: none;
+    color: hsl(0, 0%, 100%);    
 }
 
 .rating:hover {
@@ -105,9 +84,8 @@ body {
 }
 
 .selected {
-    background-color: hsl(25, 97%, 53%);
+    background-color: hsl(217, 12%, 63%);
     filter: brightness(110%);
-    color: hsl(0, 0%, 100%);    
     color: hsl(0, 0%, 100%);    
 }
 
@@ -121,3 +99,46 @@ body {
 - Dark Blue: hsl(213, 19%, 18%)
 - Very Dark Blue: hsl(216, 12%, 8%)
 */
+
+.after-rate {/*
+    visibility: hidden;
+    display: none;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.thank-you-illustration {
+    padding: 20px;
+}
+
+.thank-you-p1 {
+    background-color: hsl(213, 19%, 18%)    ;
+    filter: brightness(110%);
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: hsl(25, 97%, 53%);
+    display: flex;
+    justify-content: center;
+}
+
+.thank-you-p2 {
+    font-weight: 700;
+    font-size: 24px;
+    padding: none;
+}
+
+.thank-you-p3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.hidden {
+    visibility: hidden;
+    display: none;
+}
